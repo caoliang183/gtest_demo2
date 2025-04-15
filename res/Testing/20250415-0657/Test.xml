@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250415-0657-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.27.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-4AB69MC"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="7"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="37256"
+	TotalPhysicalMemory="32392"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3417"
+	>
+	<Testing>
+		<StartDateTime>Apr 15 15:00 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartTestTime>1744700452</StartTestTime>
+		<TestList>
+			<Test>./all_tests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>all_tests</Name>
+			<Path>.</Path>
+			<FullName>./all_tests</FullName>
+			<FullCommandLine>D:\cl\gtest_demo2\build\Debug\tests.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0152195</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\cl\gtest_demo2\build\Debug\tests.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>MathUtils::add(2, 3) = 5
+StringUtils::toUpperCase("hello") = HELLO
+VectorUtils::sum(vec) = 15
+DateUtils::isLeapYear(2020) = true
+[==========] Running 42 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 19 tests from MathUtilsTest
+[ RUN      ] MathUtilsTest.AddTest
+[       OK ] MathUtilsTest.AddTest (0 ms)
+[ RUN      ] MathUtilsTest.AddTest2
+[       OK ] MathUtilsTest.AddTest2 (0 ms)
+[ RUN      ] MathUtilsTest.AddTest3
+[       OK ] MathUtilsTest.AddTest3 (0 ms)
+[ RUN      ] MathUtilsTest.SubtractTest
+[       OK ] MathUtilsTest.SubtractTest (0 ms)
+[ RUN      ] MathUtilsTest.SubtractTest2
+[       OK ] MathUtilsTest.SubtractTest2 (0 ms)
+[ RUN      ] MathUtilsTest.SubtractTest3
+[       OK ] MathUtilsTest.SubtractTest3 (0 ms)
+[ RUN      ] MathUtilsTest.MultiplyTest
+[       OK ] MathUtilsTest.MultiplyTest (0 ms)
+[ RUN      ] MathUtilsTest.MultiplyTest2
+[       OK ] MathUtilsTest.MultiplyTest2 (0 ms)
+[ RUN      ] MathUtilsTest.MultiplyTest3
+[       OK ] MathUtilsTest.MultiplyTest3 (0 ms)
+[ RUN      ] MathUtilsTest.DivideTest
+[       OK ] MathUtilsTest.DivideTest (0 ms)
+[ RUN      ] MathUtilsTest.DivideTest2
+[       OK ] MathUtilsTest.DivideTest2 (0 ms)
+[ RUN      ] MathUtilsTest.Batchtest
+[       OK ] MathUtilsTest.Batchtest (0 ms)
+[ RUN      ] MathUtilsTest.SubtractInterruptionTest01
+[       OK ] MathUtilsTest.SubtractInterruptionTest01 (0 ms)
+[ RUN      ] MathUtilsTest.SubtractInterruptionTest02
+D:\cl\gtest_demo2\test\math_utils_test.cpp(89): error: Failed
+a is equal to b, test interrupted
+[  FAILED  ] MathUtilsTest.SubtractInterruptionTest02 (0 ms)
+[ RUN      ] MathUtilsTest.MultiplyInterruptionTest01
+D:\cl\gtest_demo2\test\math_utils_test.cpp(99): error: Failed
+a is zero, test interrupted
+[  FAILED  ] MathUtilsTest.MultiplyInterruptionTest01 (0 ms)
+[ RUN      ] MathUtilsTest.MultiplyInterruptionTest02
+D:\cl\gtest_demo2\test\math_utils_test.cpp(109): error: Failed
+b is zero, test interrupted
+[  FAILED  ] MathUtilsTest.MultiplyInterruptionTest02 (0 ms)
+[ RUN      ] MathUtilsTest.DivideExceptionTest1
+D:\cl\gtest_demo2\test\math_utils_test.cpp(120): error: Expected: MathUtils::divide(a, b) throws an exception of type std::invalid_argument.
+  Actual: it throws nothing.
+[  FAILED  ] MathUtilsTest.DivideExceptionTest1 (0 ms)
+[ RUN      ] MathUtilsTest.DivideExceptionTest2
+D:\cl\gtest_demo2\test\math_utils_test.cpp(126): error: Expected: MathUtils::divide(a, b) throws an exception of type std::invalid_argument.
+  Actual: it throws nothing.
+[  FAILED  ] MathUtilsTest.DivideExceptionTest2 (0 ms)
+[ RUN      ] MathUtilsTest.DivideExceptionTest3
+D:\cl\gtest_demo2\test\math_utils_test.cpp(132): error: Expected: MathUtils::divide(a, b) throws an exception of type std::invalid_argument.
+  Actual: it throws nothing.
+[  FAILED  ] MathUtilsTest.DivideExceptionTest3 (0 ms)
+[----------] 19 tests from MathUtilsTest (1 ms total)
+
+[----------] 10 tests from StringUtilsTest
+[ RUN      ] StringUtilsTest.ToUpperCaseTest
+[       OK ] StringUtilsTest.ToUpperCaseTest (0 ms)
+[ RUN      ] StringUtilsTest.ToUpperCaseTest2
+[       OK ] StringUtilsTest.ToUpperCaseTest2 (0 ms)
+[ RUN      ] StringUtilsTest.ToUpperCaseTest3
+[       OK ] StringUtilsTest.ToUpperCaseTest3 (0 ms)
+[ RUN      ] StringUtilsTest.ToLowerCaseTest
+[       OK ] StringUtilsTest.ToLowerCaseTest (0 ms)
+[ RUN      ] StringUtilsTest.ToLowerCaseTest2
+[       OK ] StringUtilsTest.ToLowerCaseTest2 (0 ms)
+[ RUN      ] StringUtilsTest.ToLowerCaseTest3
+[       OK ] StringUtilsTest.ToLowerCaseTest3 (0 ms)
+[ RUN      ] StringUtilsTest.StartsWithTest
+[       OK ] StringUtilsTest.StartsWithTest (0 ms)
+[ RUN      ] StringUtilsTest.StartsWithTest2
+[       OK ] StringUtilsTest.StartsWithTest2 (0 ms)
+[ RUN      ] StringUtilsTest.EndsWithTest
+[       OK ] StringUtilsTest.EndsWithTest (0 ms)
+[ RUN      ] StringUtilsTest.EndsWithTest2
+[       OK ] StringUtilsTest.EndsWithTest2 (0 ms)
+[----------] 10 tests from StringUtilsTest (0 ms total)
+
+[----------] 3 tests from VectorUtilsTest
+[ RUN      ] VectorUtilsTest.SumTest
+[       OK ] VectorUtilsTest.SumTest (0 ms)
+[ RUN      ] VectorUtilsTest.AverageTest
+[       OK ] VectorUtilsTest.AverageTest (0 ms)
+[ RUN      ] VectorUtilsTest.ContainsTest
+[       OK ] VectorUtilsTest.ContainsTest (0 ms)
+[----------] 3 tests from VectorUtilsTest (0 ms total)
+
+[----------] 10 tests from DateUtilsTest
+[ RUN      ] DateUtilsTest.IsLeapYearTest
+[       OK ] DateUtilsTest.IsLeapYearTest (0 ms)
+[ RUN      ] DateUtilsTest.IsLeapYearTest2
+[       OK ] DateUtilsTest.IsLeapYearTest2 (0 ms)
+[ RUN      ] DateUtilsTest.IsLeapYearTest3
+[       OK ] DateUtilsTest.IsLeapYearTest3 (0 ms)
+[ RUN      ] DateUtilsTest.IsLeapYearTest4
+[       OK ] DateUtilsTest.IsLeapYearTest4 (0 ms)
+[ RUN      ] DateUtilsTest.IsLeapYearTest5
+[       OK ] DateUtilsTest.IsLeapYearTest5 (0 ms)
+[ RUN      ] DateUtilsTest.DaysInMonthTest
+[       OK ] DateUtilsTest.DaysInMonthTest (0 ms)
+[ RUN      ] DateUtilsTest.DaysInMonthTest2
+[       OK ] DateUtilsTest.DaysInMonthTest2 (0 ms)
+[ RUN      ] DateUtilsTest.DaysInMonthTest3
+[       OK ] DateUtilsTest.DaysInMonthTest3 (0 ms)
+[ RUN      ] DateUtilsTest.DaysInMonthTest4
+[       OK ] DateUtilsTest.DaysInMonthTest4 (0 ms)
+[ RUN      ] DateUtilsTest.DaysInMonthTest5
+[       OK ] DateUtilsTest.DaysInMonthTest5 (0 ms)
+[----------] 10 tests from DateUtilsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 42 tests from 4 test suites ran. (1 ms total)
+[  PASSED  ] 36 tests.
+[  FAILED  ] 6 tests, listed below:
+[  FAILED  ] MathUtilsTest.SubtractInterruptionTest02
+[  FAILED  ] MathUtilsTest.MultiplyInterruptionTest01
+[  FAILED  ] MathUtilsTest.MultiplyInterruptionTest02
+[  FAILED  ] MathUtilsTest.DivideExceptionTest1
+[  FAILED  ] MathUtilsTest.DivideExceptionTest2
+[  FAILED  ] MathUtilsTest.DivideExceptionTest3
+
+ 6 FAILED TESTS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 15 15:00 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndTestTime>1744700452</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

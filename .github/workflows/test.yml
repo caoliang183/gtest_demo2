@@ -1,0 +1,50 @@
+name: gtest_demo
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Configure CMake
+      run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_FLAGS_DEBUG="/MDd" -DCMAKE_CXX_FLAGS_DEBUG="/MDd" -DCMAKE_C_FLAGS_RELEASE="/MD" -DCMAKE_CXX_FLAGS_RELEASE="/MD"
+
+    - name: Build project
+      run: cmake --build build --config Debug
+
+    - name: Run tests
+      run: cd build && ctest --output-on-failure -C Debug -j 4
+
+    - name: Generate Test Report
+      run: |
+          cd build/Debug
+          python gtest.py tests.exe
+          #ctest -T test --no-compress-output -C Debug -j 4
+
+    - name: Upload Results
+      uses: actions/upload-artifact@v4
+      with:
+          name: gtest-results
+          path: build/Testing
+
+    - name: Install dependencies
+      run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+    - name: feishu notic
+      env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          GITHUB_SERVER_URL: ${{ github.server_url }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+      if: always()
+      run: python send_feishu.py

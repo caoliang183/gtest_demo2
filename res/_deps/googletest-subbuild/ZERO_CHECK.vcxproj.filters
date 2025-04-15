@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cl\gtest_demo2\build\_deps\googletest-subbuild\CMakeFiles\779d3650cb84484e96c80a0d24003ab0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake">
+      <Filter>Buildsystem Input Files\googletest-populate-prefix\tmp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE96688C-EAA7-36BE-B591-70258CC0281C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\googletest-populate-prefix\tmp">
+      <UniqueIdentifier>{15C43A4F-A6AF-3D28-8838-CE00C42BFBC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

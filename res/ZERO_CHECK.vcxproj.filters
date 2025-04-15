@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cl\gtest_demo2\build\CMakeFiles\945b55061206c535ef3aa1544786813b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googlemock\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googlemock</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googlemock\cmake\gmock.pc.in">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googlemock\cmake</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googlemock\cmake\gmock_main.pc.in">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googlemock\cmake</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googletest\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googletest</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googletest\cmake\Config.cmake.in">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googletest\cmake</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googletest\cmake\gtest.pc.in">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googletest\cmake</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googletest\cmake</Filter>
+    </None>
+    <None Include="D:\cl\gtest_demo2\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake">
+      <Filter>Buildsystem Input Files\build\_deps\googletest-src\googletest\cmake</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B51DBF1E-215F-39EC-9308-8A6CCE1B0292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BCC759AA-00EB-3696-9C2A-809D2B98388E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\googletest-src">
+      <UniqueIdentifier>{143826F3-B025-3792-9626-89C775619F80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\googletest-src\googlemock">
+      <UniqueIdentifier>{37F45F0E-DFE7-3CA5-B4A4-0745F0F9D1A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\googletest-src\googlemock\cmake">
+      <UniqueIdentifier>{C3758C2B-FC1D-3617-B9A7-47990422FE13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\googletest-src\googletest">
+      <UniqueIdentifier>{38C6578F-26A0-323E-88A2-15A646568D12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\_deps\googletest-src\googletest\cmake">
+      <UniqueIdentifier>{46C19140-CB3F-38F8-8E27-9FD0C655C4D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

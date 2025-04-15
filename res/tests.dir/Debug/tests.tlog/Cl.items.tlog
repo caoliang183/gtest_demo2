@@ -1,0 +1,9 @@
+D:\cl\gtest_demo2\main.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\main.obj
+D:\cl\gtest_demo2\test\math_utils_test.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\math_utils_test.obj
+D:\cl\gtest_demo2\test\string_utils_test.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\string_utils_test.obj
+D:\cl\gtest_demo2\test\vector_utils_test.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\vector_utils_test.obj
+D:\cl\gtest_demo2\test\date_utils_test.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\date_utils_test.obj
+D:\cl\gtest_demo2\src\math_utils.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\math_utils.obj
+D:\cl\gtest_demo2\src\string_utils.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\string_utils.obj
+D:\cl\gtest_demo2\src\vector_utils.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\vector_utils.obj
+D:\cl\gtest_demo2\src\date_utils.cpp;D:\cl\gtest_demo2\build\tests.dir\Debug\date_utils.obj
