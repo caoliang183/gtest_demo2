@@ -27,7 +27,6 @@ jobs:
       run: |
           cd build/Debug
           python gtest.py tests.exe
-          #ctest -T test --no-compress-output -C Debug -j 4
 
     - name: Upload Results
       uses: actions/upload-artifact@v4

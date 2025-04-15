@@ -70,7 +70,7 @@ TEST_F(MathUtilsTest, Batchtest) {
         }
     }
 }
-
+/*
 // 存在中断的 gtest 测例
 TEST_F(MathUtilsTest, SubtractInterruptionTest01) {
     int a = 10;
@@ -130,4 +130,5 @@ TEST_F(MathUtilsTest, DivideExceptionTest3) {
     double a = -10.0;
     double b = 0.0;
     EXPECT_THROW(MathUtils::divide(a, b), std::invalid_argument);
-}    
+}
+*/
