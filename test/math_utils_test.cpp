@@ -70,6 +70,7 @@ TEST_F(MathUtilsTest, Batchtest) {
         }
     }
 }
+
 /*
 // 存在中断的 gtest 测例
 TEST_F(MathUtilsTest, SubtractInterruptionTest01) {
