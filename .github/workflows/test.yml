@@ -26,7 +26,7 @@ jobs:
     - name: Generate Test Report
       run: |
           cd build/Debug
-          python ./../../gtest.py tests.exe
+          python ./../../gtest.py --exe tests.exe
 
     - name: Upload Results
       uses: actions/upload-artifact@v4
